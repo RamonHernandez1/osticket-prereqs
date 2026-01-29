@@ -29,9 +29,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p>
 <p>
-Welcome to my first in-depth IT tutorial! To begin we will have to create a Virtual machine using the Microsoft Azure portal(portal.azure.com). We will be using a VM(virtual machine) which is a remote computer. We are using a VM in order to protect our physical machine just in case something malfunctions, and also have a clean slate computer to continually replicate the lab on. Create a resource group and title it "osTicket". Afterwards create a VM with 2-4 CPUs. In this example I will be using 4 CPUs.
+Welcome in this tutorial we will be setting up a virtual machine in azure and installing osTicket.
+
+
+
+
+
   
- <img src="https://i.imgur.com/OPaIGoN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img width="1433" height="809" alt="Screenshot 2026-01-29 at 2 12 07 PM" src="https://github.com/user-attachments/assets/931cfbc4-2ff6-4c61-ba45-158b93ca61ad" />
+
 </p>
 <br />
 <p>
