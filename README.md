@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p>
 <p>
-Welcome in this tutorial we will be setting up a virtual machine in azure and installing osTicket.
+Welcome in this tutorial we will be setting up a virtual machine in azure, connecting to windows app (previously remote desktop) and installing osTicket.
 
 
 
@@ -42,9 +42,10 @@ Welcome in this tutorial we will be setting up a virtual machine in azure and in
 <br />
 <p>
 </p>
-<p>Next simply connect to your newly created VM using RDP using the public IPv4 address. If you are a Mac user you will have to download Microsoft Remote Desktop(RDP). 
+<p> We have created our virtual machine, now we connect to windows app (Remote Desktop) using the vm public IPv4 address. 
 </p>
-<img src="https://i.imgur.com/uLVKzxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1168" height="715" alt="Screenshot 2026-01-29 at 2 25 49 PM" src="https://github.com/user-attachments/assets/5b1b91dd-8c7f-45cf-9504-40b2e955e577" />
+
 </p>
 <br />
 
