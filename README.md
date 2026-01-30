@@ -117,10 +117,11 @@ Then double click on PHP manager. Click on "Disable or enable an extension" Enab
 </p>
 <p>
 Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php
-Assign permissions to ost-config.php Disable inheritance->Removeall
+Assign permissions to ost-config.php Disable inheritance->Remove all
 New Permissions->Everyone->all
 </p>
-<img src="https://i.imgur.com/1nYaYGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1440" height="900" alt="Screenshot 2026-01-30 at 1 21 07 PM" src="https://github.com/user-attachments/assets/9034acc5-7ed9-4dac-96c7-75f7cc928001" />
+
 <br />
 <p>
 </p>
