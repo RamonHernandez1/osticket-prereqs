@@ -68,7 +68,8 @@ osTicket has been installed now we need to enable IIS (internet information serv
 
 </p>  <img width="785" height="679" alt="Screenshot 2026-01-29 at 4 25 09 PM" src="https://github.com/user-attachments/assets/460a306e-3c89-4cb7-ba3d-50f6eeb7e22f" />
 <img width="909" height="413" alt="Screenshot 2026-01-29 at 4 27 27 PM" src="https://github.com/user-attachments/assets/dbd6af95-c634-4628-bdbd-92cf9abb876e" />
-<img width="1123" height="592" alt="Screenshot 2026-01-29 at 4 41 35 PM" src="https://github.com/user-attachments/assets/becd5cef-fc36-40f7-8ee2-c30b99c17b0d" />
+<img width="1130" height="587" alt="Screenshot 2026-01-29 at 5 00 40 PM" src="https://github.com/user-attachments/assets/4273528f-e65e-4423-b8e2-f2f3de2e1f03" />
+
 
 
 
