@@ -46,13 +46,18 @@ Welcome in this tutorial we will be setting up a virtual machine in azure, conne
 </p>
 <img width="1168" height="715" alt="Screenshot 2026-01-29 at 2 25 49 PM" src="https://github.com/user-attachments/assets/5b1b91dd-8c7f-45cf-9504-40b2e955e577" />
 
+
 </p>
-<br />
+<br />  Now we will download, install, and unzipping os ticket 
+<img width="717" height="249" alt="Screenshot 2026-01-29 at 3 57 08 PM" src="https://github.com/user-attachments/assets/c1672918-45cd-4443-b8fa-a71d404ccd76" />
+<img width="618" height="457" alt="Screenshot 2026-01-29 at 3 57 49 PM" src="https://github.com/user-attachments/assets/d4c06eec-85b9-4435-a468-9606dc68c9d1" />
+
+
 
 <p>
 </p>
 <p>
-Alright, now that you are connected to your VM you will have to enable IIS. Simply access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
+enable IIS. Simply access the control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
 </p>  
 <img src="https://i.imgur.com/qtEnuWu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
