@@ -75,7 +75,7 @@ osTicket has been installed now we need to enable IIS (internet information serv
 
 
 
-<>bb
+<>
 </p>
 <br />
 </p>
