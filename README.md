@@ -59,11 +59,17 @@ Welcome in this tutorial we will be setting up a virtual machine in azure, conne
 <p> 
 </p>
 <p>
-osTicket has been installed now we enable IIS (internet information services). In the virtual machine click the start menu, type control panel then select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services.
-<img width="785" height="679" alt="Screenshot 2026-01-29 at 4 25 09 PM" src="https://github.com/user-attachments/assets/74703164-512a-4e2b-8a29-5992cdeaba59" />
+osTicket has been installed now we enable IIS (internet information services). In the virtual machine click the start menu, type control panel then select uninstall a program. on top left select "Turn windows features on or off". A list will appear from there  you will enable Internet Information Services.
 
 
-</p>  
+
+  
+
+
+</p>  <img width="785" height="679" alt="Screenshot 2026-01-29 at 4 25 09 PM" src="https://github.com/user-attachments/assets/460a306e-3c89-4cb7-ba3d-50f6eeb7e22f" />
+<img width="909" height="413" alt="Screenshot 2026-01-29 at 4 27 27 PM" src="https://github.com/user-attachments/assets/dbd6af95-c634-4628-bdbd-92cf9abb876e" />
+
+
 <img src="https://i.imgur.com/qtEnuWu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
