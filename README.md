@@ -80,7 +80,7 @@ osTicket has been installed now we need to enable IIS (internet information serv
 <br />
 </p>
 <p>
-IIS has benn enabled now we need to install Web Platform Installer. Below i have provide an example of what we need to install and enable to get osTicket up and running. 
+IIS has been enabled now we need to install Web Platform Installer. Below i have provide an example of what we need to install and enable to get osTicket up and running. 
 </p>
 <img width="795" height="377" alt="Screenshot 2026-01-29 at 5 11 25 PM" src="https://github.com/user-attachments/assets/a4d61ec4-c6ee-4a67-9069-3adf6f4e5358" />
 <img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -94,7 +94,8 @@ IIS has benn enabled now we need to install Web Platform Installer. Below i have
 <p>
 Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
 </P>
-<img src="https://i.imgur.com/TUGiSKi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<<img width="612" height="594" alt="Screenshot 2026-01-30 at 12 59 57 PM" src="https://github.com/user-attachments/assets/700259c6-6924-423e-9ca3-599895ef96cc" />
+>
 </p>
 <br />
 <p>
