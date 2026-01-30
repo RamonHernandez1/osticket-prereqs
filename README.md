@@ -82,10 +82,10 @@ osTicket has been installed now we need to enable IIS (internet information serv
 <p>
 IIS has benn enabled now we need to install Web Platform Installer. Below i have provide an example of what we need to install and enable to get osTicket up and running. 
 </p>
-<img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>tttt
+<img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once you have installed Web Installer Platform open it. From inside the application you are going to install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
+
 </p>
 
 <p>
