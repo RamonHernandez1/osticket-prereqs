@@ -26,10 +26,8 @@ Project consists of setting up all the prerequisites and installing osTicket fro
 <p>
 </p>
 <p>
-  Navigate to microsoft Azure and create a resource group.
-
-
-
+  
+Navigate to microsoft Azure and create a resource group.
 
 
   
@@ -43,7 +41,7 @@ Project consists of setting up all the prerequisites and installing osTicket fro
 <p>
 </p>
 </p>
-<p> once everything has been created I'll use Remote Desktop to connect to my vm . <img width="1168" height="715" alt="Screenshot 2026-01-29 at 2 25 49 PM" src="https://github.com/user-attachments/assets/5b1b91dd-8c7f-45cf-9504-40b2e955e577" />
+<p> Once everything has been created I'll use Remote Desktop to connect to my vm . <img width="1168" height="715" alt="Screenshot 2026-01-29 at 2 25 49 PM" src="https://github.com/user-attachments/assets/5b1b91dd-8c7f-45cf-9504-40b2e955e577" />
 
 
 </p>
@@ -58,7 +56,7 @@ Project consists of setting up all the prerequisites and installing osTicket fro
 <p> 
 </p>
 <p>
-I now will install and enable IIS (Internet Information Servies) by going to Control Panel> Programs> Turn Windows Features On or Off> Internet Information Services and enable it then World Wide Web Services> Application Development Features and enable CGI:
+ Now I will install and enable IIS (Internet Information Servies) by going to Control Panel> Programs> Turn Windows Features On or Off> Internet Information Services and enable it then World Wide Web Services> Application Development Features and enable CGI:
 
   
 
@@ -91,7 +89,7 @@ Now I need to install PHP manager for IIS Setup.<img width="1433" height="860" a
 </p>
 <p>
 </P>
-Now I'll download PHP and extract the zip file in the PHP directory I just made<img width="1434" height="867" alt="Screenshot 2026-02-10 at 1 06 20 PM" src="https://github.com/user-attachments/assets/e98f81c3-4ac9-4bbe-b58f-273074c9c60a" />
+Now I'll download PHP and extract the zip file in the PHP directory I just made</P><img width="1434" height="867" alt="Screenshot 2026-02-10 at 1 06 20 PM" src="https://github.com/user-attachments/assets/e98f81c3-4ac9-4bbe-b58f-273074c9c60a" />
 
 
 >
