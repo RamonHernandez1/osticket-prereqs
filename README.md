@@ -3,46 +3,46 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
-
+Project consists of setting up all the prerequisites and installing osTicket from scratch. This was done on a Windows 10 Virtual Machine I created in Azure. osTicket is a widely used and trusted open source Help Desk ticketing system.
+</p> You can find all the necessary installation files used in this project.(https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Microsoft Remote Desktop (RDP)
-- Internet Information Services (IIS)
-
+</p>Microsoft Azure
+</p>Virtual Machines
+</p>Remote Desktop Connection
+</p>Internet Information Services
+</p>MySQL
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> 
+ Windows 10</b> 
 
-<h2>List of Prerequisites</h2>
 
-- Azure Virtual Machine
-- osTicket Installation files
-- Heidi SQL
 
 <h2>Installation Steps</h2>
 
 <p>
 </p>
 <p>
-Welcome in this tutorial we will be setting up a virtual machine in azure, connecting to windows app (previously remote desktop) and installing osTicket.
+  Navigate to microsoft Azure and create a resource group.
 
 
 
 
 
   
- <img width="1433" height="809" alt="Screenshot 2026-01-29 at 2 12 07 PM" src="https://github.com/user-attachments/assets/931cfbc4-2ff6-4c61-ba45-158b93ca61ad" />
+ <img width="1352" height="785" alt="Screenshot 2026-02-10 at 8 35 13 AM" src="https://github.com/user-attachments/assets/55d702c2-7aa2-4ccd-b4ac-6d7bef0611a7" /><p><img width="1348" height="809" alt="Screenshot 2026-02-10 at 8 38 44 AM" src="https://github.com/user-attachments/assets/c452c69e-b3d3-4e28-946c-43a4caaddc44" />
 
-</p>
-<br />
+
+<br /><p> my resource group has been created, now i will create the virtual machine<p><img width="1433" height="742" alt="Screenshot 2026-02-10 at 8 47 01 AM" src="https://github.com/user-attachments/assets/59c10c09-3f38-4db0-9b86-428b398980fc" /></p><img width="1432" height="805" alt="Screenshot 2026-02-10 at 8 52 58 AM" src="https://github.com/user-attachments/assets/028b5e07-93cc-4c77-aa68-818433917d3a" /><p><img width="1432" height="801" alt="Screenshot 2026-02-10 at 8 54 14 AM" src="https://github.com/user-attachments/assets/c7b66e8c-93cc-4e67-aa1d-f5bf2923bf49" />
+
+
+
 <p>
 </p>
-<p> We have created our virtual machine, now we connect to windows app (Remote Desktop) using the vm public IPv4 address. 
+<p> once everything has been created I'll use Remote Desktop to connect to my vm . 
 </p>
 <img width="1168" height="715" alt="Screenshot 2026-01-29 at 2 25 49 PM" src="https://github.com/user-attachments/assets/5b1b91dd-8c7f-45cf-9504-40b2e955e577" />
 
