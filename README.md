@@ -136,90 +136,67 @@ Go back to osticketVM Home and hit Restart under Manage Server on the right side
  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:<img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 12 26 PM" src="https://github.com/user-attachments/assets/8f2c2a7d-3702-46e5-bdbf-8378da0518ca" />
 
 <br />
-<p>
-<p>Rename upload file to osTicket:<img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 15 16 PM" src="https://github.com/user-attachments/assets/086f7540-ad4d-4cc9-80d0-78c9ab068688" />
+<p>Rename upload file to osTicket:
+<img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 15 16 PM" src="https://github.com/user-attachments/assets/2865bc48-3712-4e55-b445-d554713c6656" />
 
+<br />Reload IIS and restart the server as I did before, then click Browse *80 (http) on the right side:<p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 32 08 PM" src="https://github.com/user-attachments/assets/390b00d0-c550-4897-a0d4-b8dc8d9ede97" />
 
 
 <br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+<p>This page should open.
+<p><img width="1432" height="863" alt="Screenshot 2026-02-10 at 2 38 40 PM" src="https://github.com/user-attachments/assets/99c744d0-f937-4967-8c1a-32b3753e9bc8" />
 
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+
+  Notice some extensions are not enabled. I'll enable a few of those in IIS. Go to Sites> Default Web Site> osTicket Click PHP Manager> Enable or disable an extension. Enable php_imap.dll, php_intl.dll, and php_opcache.dll:
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+<img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 42 50 PM" src="https://github.com/user-attachments/assets/28fe6c98-d6ae-4b13-a7a7-dd35d1310f02" />
 
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<p>
+<p>
+<p>Note the changes.
+<img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 45 57 PM" src="https://github.com/user-attachments/assets/192af7b3-ea97-4213-b81d-c9723a757775" />
+
+  
+<br />Next browse in file explorer to C drive> osTicket> include> ost-sampleconfig.php and remove the "sample" from the name:
+<p>
+<p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 52 33 PM" src="https://github.com/user-attachments/assets/e34b4eb2-ef99-4d59-aebe-121e21a5a21a" />
+
+  Right-click on ost-config.php> Properties> Security> Advanced> Disable Inheritance> Remove all inherited permissions from this object:
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+<p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 56 04 PM" src="https://github.com/user-attachments/assets/52d337c1-b65f-4506-a0c2-39845ffb938a" />
 
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+ Click on the add button to add permissions to the file> Select a principle> type "everyone"> Check> OK> check all permissions> OK> apply> OK:
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 58 53 PM" src="https://github.com/user-attachments/assets/5baa86a9-a9fc-47ad-b87b-86b1637e0079" />
+
+  Hit continue on the osTicket web page in the browser and fill out the set up page:
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+<p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 3 03 59 PM" src="https://github.com/user-attachments/assets/fb41cfc5-cdd3-45c0-b768-1c6bdd0a80f8" />
 
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+  Before database set up we'll have to connect the database using HeidiSQL. Install HeidiSQL from setup links:
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+<p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 3 06 35 PM" src="https://github.com/user-attachments/assets/c6f81609-745d-40bb-842a-bb9e6880fd08" />
 
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+
+  In HeidiSQL click New> Username = root> Password = mySQL password from mySQL setup> Open:
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+<p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 3 11 37 PM" src="https://github.com/user-attachments/assets/559a6ca5-9136-4a27-842c-1d2847b409d0" />
 
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+
+  In HeidiSQL right click Unnamed> Create> New Database> Name it osTicket> OK. Then continue to fill out the database portion of osTicket setup. Click Install Now when done.:
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+<p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 3 15 04 PM" src="https://github.com/user-attachments/assets/02103965-2287-4550-9b81-3a3ca5c03733" />
 
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+
+  Last steps, for clean up go to C drive> inetpub> wwwroot> osTicket and look for the setup file and delete it. Then go to C drive> inetpub> wwwroot> osTicket> include right click on ost-config.php> Properties> Security> Advanced> Select Everyone and click edit> only leave Read & Execute and Read checked, then apply settings:
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
-<br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
-<br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
-<br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
-<br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
-<br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
-<br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
-<br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-
-  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
-<br />
-<p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-
-
+<p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 3 22 18 PM" src="https://github.com/user-attachments/assets/defefb8f-5b4c-4c2e-828a-789b70feb51c" />
 
 
