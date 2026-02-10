@@ -59,31 +59,31 @@ Project consists of setting up all the prerequisites and installing osTicket fro
 <p> 
 </p>
 <p>
-osTicket has been installed now we need to enable IIS (internet information services). In the virtual machine, click the start menu, type control panel, on the bottom left select PROGRAM uninstall a program. On top left select Turn windows features on or off and  A list will appear from there  you will begin to enable IIS (Internet Information Services).
-
-
+I now will install and enable IIS (Internet Information Servies) by going to Control Panel> Programs> Turn Windows Features On or Off> Internet Information Services and enable it then World Wide Web Services> Application Development Features and enable CGI:
 
   
 
 
 </p>  <img width="785" height="679" alt="Screenshot 2026-01-29 at 4 25 09 PM" src="https://github.com/user-attachments/assets/460a306e-3c89-4cb7-ba3d-50f6eeb7e22f" />
-<img width="909" height="413" alt="Screenshot 2026-01-29 at 4 27 27 PM" src="https://github.com/user-attachments/assets/dbd6af95-c634-4628-bdbd-92cf9abb876e" />
-<img width="1130" height="587" alt="Screenshot 2026-01-29 at 5 00 40 PM" src="https://github.com/user-attachments/assets/4273528f-e65e-4423-b8e2-f2f3de2e1f03" />
+<img width="909" height="413" alt="Screenshot 2026-01-29 at 4 27 27 PM" src="https://github.com/user-attachments/assets/dbd6af95-c634-4628-bdbd-92cf9abb876e" /><img width="1209" height="641" alt="Screenshot 2026-02-10 at 11 49 07 AM" src="https://github.com/user-attachments/assets/5e7f14c5-8a4c-4981-b865-25e362cb2d08" />
+</p>
+<img width="1130" height="587" alt="Screenshot 2026-01-29 at 5 00 40 PM" src="https://github.com/user-attachments/assets/4273528f-e65e-4423-b8e2-f2f3de2e1f03" /></></p>I can test that the web server installed correctly by typing in the loopback IP (127.0.0.1) in the internet browser and this page should load <img width="1430" height="859" alt="Screenshot 2026-02-10 at 11 55 24 AM" src="https://github.com/user-attachments/assets/b972429c-4d46-4e5d-a2c6-71d87515255b" />
 
 
 
 
-
-
-<>
 </p>
 <br />
 </p>
 <p>
-IIS has been enabled now we need to install Web Platform Installer. Below i have provide an example of what we need to install and enable to get osTicket up and running. 
+Now I need to install PHP manager for IIS Setup. 
 </p>
-<img width="795" height="377" alt="Screenshot 2026-01-29 at 5 11 25 PM" src="https://github.com/user-attachments/assets/a4d61ec4-c6ee-4a67-9069-3adf6f4e5358" />
-<img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1433" height="860" alt="Screenshot 2026-02-10 at 12 32 36 PM" src="https://github.com/user-attachments/assets/7de415d0-b84d-4ed6-92c9-35d4ce1b9494" /></p>install IIS URL Rewrite Module:</p><img width="1426" height="860" alt="Screenshot 2026-02-10 at 12 33 09 PM" src="https://github.com/user-attachments/assets/b14b4081-1689-4359-b08f-7105060dced8" />
+
+</p>Once those have installed I will create a PHP directory on the C drive
+<img width="1438" height="900" alt="Screenshot 2026-02-10 at 12 56 41 PM" src="https://github.com/user-attachments/assets/4e731297-5b0a-4313-ae13-463f0e99d77a" />
+
+
 </p>
 <p>
 
@@ -92,43 +92,50 @@ IIS has been enabled now we need to install Web Platform Installer. Below i have
 <p>
 </p>
 <p>
-Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
+Now I'll download PHP and extract the zip file in the PHP directory I just made
 </P>
-<<img width="612" height="594" alt="Screenshot 2026-01-30 at 12 59 57 PM" src="https://github.com/user-attachments/assets/700259c6-6924-423e-9ca3-599895ef96cc" />
+<img width="1434" height="867" alt="Screenshot 2026-02-10 at 1 06 20 PM" src="https://github.com/user-attachments/assets/e98f81c3-4ac9-4bbe-b58f-273074c9c60a" />
+
+
 >
 </p>
 <br />
 <p>
 </p>
 <p>
-Open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
+Download Microsoft Visual C++.
 </p>
-<img src="https://i.imgur.com/4AkTkV0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1431" height="869" alt="Screenshot 2026-02-10 at 1 08 57 PM" src="https://github.com/user-attachments/assets/2159e76e-e155-4a5e-971a-d1cd5e22cf6c" />
+
+
 <br />
-<p>
 </p>
-<p>
-Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket
-Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled. 
 </p>
-<img src="https://i.imgur.com/APZgUTT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<p> Download MYSQL:
+</p><img width="1423" height="858" alt="Screenshot 2026-02-10 at 1 14 36 PM" src="https://github.com/user-attachments/assets/b261ffcd-f682-47e7-a032-068e72f217b7" /><p></p>Next, I have to setup the login credentials <img width="1430" height="871" alt="Screenshot 2026-02-10 at 1 16 55 PM" src="https://github.com/user-attachments/assets/57c32ece-1a0a-4823-92f2-1ec8c482fe9d" />
 <p>
-</p>
 <p>
-Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php
-Assign permissions to ost-config.php Disable inheritance->Remove all
-New Permissions->Everyone->all
-</p>
-<img width="1440" height="900" alt="Screenshot 2026-01-30 at 1 21 07 PM" src="https://github.com/user-attachments/assets/9034acc5-7ed9-4dac-96c7-75f7cc928001" />
+<p>
+
+Open IIS as an admin:<p><img width="1431" height="856" alt="Screenshot 2026-02-10 at 1 50 29 PM" src="https://github.com/user-attachments/assets/b27f18b8-510a-4da0-96c9-3e3374d03030" />
 
 <br />
 <p>
 </p>
 <p>
-Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets. 
+Next go to PHP Manager> Register new PHP version and then select the file shown:
 </p>
-<img src="https://i.imgur.com/RmVk3q5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1429" height="899" alt="Screenshot 2026-02-10 at 1 56 46 PM" src="https://github.com/user-attachments/assets/ccedb2b4-e5da-4b77-b4a1-52cc588269e1" />
+
+
+<br />
+<p>
+</p>
+<p>
+Go back to osticketVM Home and hit Restart under Manage Server on the right side:. 
+</p>
+<img width="1438" height="896" alt="Screenshot 2026-02-10 at 2 02 20 PM" src="https://github.com/user-attachments/assets/ee31ff68-7ee4-4027-b000-e5fdc7ade041" />
+
 <br />
 <p>
 <p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
