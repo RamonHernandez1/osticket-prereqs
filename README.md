@@ -199,4 +199,10 @@ Go back to osticketVM Home and hit Restart under Manage Server on the right side
 <p>
 <p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 3 22 18 PM" src="https://github.com/user-attachments/assets/defefb8f-5b4c-4c2e-828a-789b70feb51c" />
 
+</p>
+<br />
+</p>osTicket is now installed and ready for use! In the next project I will walk you through how to configure agents, their permissions and access, users, and more!
+
+</p>
+<p>
 
