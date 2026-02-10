@@ -42,14 +42,13 @@ Project consists of setting up all the prerequisites and installing osTicket fro
 
 <p>
 </p>
-<p> once everything has been created I'll use Remote Desktop to connect to my vm . 
 </p>
-<img width="1168" height="715" alt="Screenshot 2026-01-29 at 2 25 49 PM" src="https://github.com/user-attachments/assets/5b1b91dd-8c7f-45cf-9504-40b2e955e577" />
+<p> once everything has been created I'll use Remote Desktop to connect to my vm . <img width="1168" height="715" alt="Screenshot 2026-01-29 at 2 25 49 PM" src="https://github.com/user-attachments/assets/5b1b91dd-8c7f-45cf-9504-40b2e955e577" />
 
 
 </p>
-<br />  Now we will download, install, and unzipping os ticket 
-<img width="717" height="249" alt="Screenshot 2026-01-29 at 3 57 08 PM" src="https://github.com/user-attachments/assets/c1672918-45cd-4443-b8fa-a71d404ccd76" />
+<br />  Now we will download, install, and unzipping os ticket.
+ Now we will download, install, and unzipping os ticket <img width="717" height="249" alt="Screenshot 2026-01-29 at 3 57 08 PM" src="https://github.com/user-attachments/assets/c1672918-45cd-4443-b8fa-a71d404ccd76" />
 <img width="618" height="457" alt="Screenshot 2026-01-29 at 3 57 49 PM" src="https://github.com/user-attachments/assets/d4c06eec-85b9-4435-a468-9606dc68c9d1" />
 <img width="798" height="593" alt="Screenshot 2026-01-29 at 4 15 50 PM" src="https://github.com/user-attachments/assets/6364f533-bfb5-40de-a61d-015f41d60610" />
 
@@ -76,9 +75,8 @@ I now will install and enable IIS (Internet Information Servies) by going to Con
 <br />
 </p>
 <p>
-Now I need to install PHP manager for IIS Setup. 
 </p>
-<img width="1433" height="860" alt="Screenshot 2026-02-10 at 12 32 36 PM" src="https://github.com/user-attachments/assets/7de415d0-b84d-4ed6-92c9-35d4ce1b9494" /></p>install IIS URL Rewrite Module:</p><img width="1426" height="860" alt="Screenshot 2026-02-10 at 12 33 09 PM" src="https://github.com/user-attachments/assets/b14b4081-1689-4359-b08f-7105060dced8" />
+Now I need to install PHP manager for IIS Setup.<img width="1433" height="860" alt="Screenshot 2026-02-10 at 12 32 36 PM" src="https://github.com/user-attachments/assets/7de415d0-b84d-4ed6-92c9-35d4ce1b9494" /></p>install IIS URL Rewrite Module:</p><img width="1426" height="860" alt="Screenshot 2026-02-10 at 12 33 09 PM" src="https://github.com/user-attachments/assets/b14b4081-1689-4359-b08f-7105060dced8" />
 
 </p>Once those have installed I will create a PHP directory on the C drive
 <img width="1438" height="900" alt="Screenshot 2026-02-10 at 12 56 41 PM" src="https://github.com/user-attachments/assets/4e731297-5b0a-4313-ae13-463f0e99d77a" />
@@ -92,9 +90,8 @@ Now I need to install PHP manager for IIS Setup.
 <p>
 </p>
 <p>
-Now I'll download PHP and extract the zip file in the PHP directory I just made
 </P>
-<img width="1434" height="867" alt="Screenshot 2026-02-10 at 1 06 20 PM" src="https://github.com/user-attachments/assets/e98f81c3-4ac9-4bbe-b58f-273074c9c60a" />
+Now I'll download PHP and extract the zip file in the PHP directory I just made<img width="1434" height="867" alt="Screenshot 2026-02-10 at 1 06 20 PM" src="https://github.com/user-attachments/assets/e98f81c3-4ac9-4bbe-b58f-273074c9c60a" />
 
 
 >
@@ -102,10 +99,8 @@ Now I'll download PHP and extract the zip file in the PHP directory I just made
 <br />
 <p>
 </p>
-<p>
-Download Microsoft Visual C++.
 </p>
-<img width="1431" height="869" alt="Screenshot 2026-02-10 at 1 08 57 PM" src="https://github.com/user-attachments/assets/2159e76e-e155-4a5e-971a-d1cd5e22cf6c" />
+Download Microsoft Visual C++.<img width="1431" height="869" alt="Screenshot 2026-02-10 at 1 08 57 PM" src="https://github.com/user-attachments/assets/2159e76e-e155-4a5e-971a-d1cd5e22cf6c" />
 
 
 <br />
@@ -123,20 +118,110 @@ Open IIS as an admin:<p><img width="1431" height="856" alt="Screenshot 2026-02-1
 <p>
 </p>
 <p>
-Next go to PHP Manager> Register new PHP version and then select the file shown:
 </p>
-<img width="1429" height="899" alt="Screenshot 2026-02-10 at 1 56 46 PM" src="https://github.com/user-attachments/assets/ccedb2b4-e5da-4b77-b4a1-52cc588269e1" />
+Next go to PHP Manager> Register new PHP version and then select the file shown:<img width="1429" height="899" alt="Screenshot 2026-02-10 at 1 56 46 PM" src="https://github.com/user-attachments/assets/ccedb2b4-e5da-4b77-b4a1-52cc588269e1" />
 
 
 <br />
 <p>
 </p>
-<p>
-Go back to osticketVM Home and hit Restart under Manage Server on the right side:. 
+<p> 
 </p>
-<img width="1438" height="896" alt="Screenshot 2026-02-10 at 2 02 20 PM" src="https://github.com/user-attachments/assets/ee31ff68-7ee4-4027-b000-e5fdc7ade041" />
+Go back to osticketVM Home and hit Restart under Manage Server on the right side:<img width="1438" height="896" alt="Screenshot 2026-02-10 at 2 02 20 PM" src="https://github.com/user-attachments/assets/ee31ff68-7ee4-4027-b000-e5fdc7ade041" />
+
+<br />
+<p>
+<p>
+ <p>
+<br />
+<p>
+ Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:<img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 12 26 PM" src="https://github.com/user-attachments/assets/8f2c2a7d-3702-46e5-bdbf-8378da0518ca" />
+
+<br />
+<p>
+<p>Rename upload file to osTicket:<img width="1440" height="900" alt="Screenshot 2026-02-10 at 2 15 16 PM" src="https://github.com/user-attachments/assets/086f7540-ad4d-4cc9-80d0-78c9ab068688" />
+
+
 
 <br />
 <p>
 <p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+  Next I'll download osTicket and copy the upload file to the wwwroot file in the inetpub directory:
+<br />
+<p>
+<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+
+
+
 
