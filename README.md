@@ -188,7 +188,7 @@ Go back to osticketVM Home and hit Restart under Manage Server on the right side
 <p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 3 11 37 PM" src="https://github.com/user-attachments/assets/559a6ca5-9136-4a27-842c-1d2847b409d0" />
 
 
-  In HeidiSQL right click Unnamed> Create> New Database> Name it osTicket> OK. Then continue to fill out the database portion of osTicket setup. Click Install Now when done.:
+  In HeidiSQL right click Unnamed> Create> New Database> Name it osTicket> OK. Then continue to fill out the database portion of osTicket setup. Click Install Now when done:
 <br />
 <p>
 <p><img width="1440" height="900" alt="Screenshot 2026-02-10 at 3 15 04 PM" src="https://github.com/user-attachments/assets/02103965-2287-4550-9b81-3a3ca5c03733" />
