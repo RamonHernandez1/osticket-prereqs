@@ -45,8 +45,8 @@ Navigate to microsoft Azure and create a resource group.
 
 
 </p>
-<br />  Now we will download, install, and unzipping os ticket.
- Now we will download, install, and unzipping os ticket <img width="717" height="249" alt="Screenshot 2026-01-29 at 3 57 08 PM" src="https://github.com/user-attachments/assets/c1672918-45cd-4443-b8fa-a71d404ccd76" />
+<br />  Now we will download, install, and unzipping osticket. [osTicket-Installation-Files.zip ](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
+<img width="717" height="249" alt="Screenshot 2026-01-29 at 3 57 08 PM" src="https://github.com/user-attachments/assets/c1672918-45cd-4443-b8fa-a71d404ccd76" />
 <img width="618" height="457" alt="Screenshot 2026-01-29 at 3 57 49 PM" src="https://github.com/user-attachments/assets/d4c06eec-85b9-4435-a468-9606dc68c9d1" />
 <img width="798" height="593" alt="Screenshot 2026-01-29 at 4 15 50 PM" src="https://github.com/user-attachments/assets/6364f533-bfb5-40de-a61d-015f41d60610" />
 
